@@ -112,7 +112,7 @@ module.exports = {
     ACCOUNT_INACTIVE: {
         status: 403,
         code: 'ACCOUNT_INACTIVE',
-        detail: 'Your account is inactive. Please contact Siemens.',
+        detail: 'Your account is inactive. Please contact admin.',
         desc: 'Forbidden'
     },
 
