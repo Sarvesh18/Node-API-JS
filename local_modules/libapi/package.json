@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "libapi",
+  "version": "0.0.1",
+  "description": "API Module - Plug and Play",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarvesh18/NodeJS-API.git"
+  },
+  "author": "Sarvesh Singh <sarvesh.singh18@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sarvesh18/NodeJS-API/issues"
+  },
+  "homepage": "https://github.com/Sarvesh18/NodeJS-API#readme",
+  "dependencies": {}
+}

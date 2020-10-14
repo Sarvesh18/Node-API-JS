@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        title="Api Success"
+        link( rel="stylesheet", href="./swagger-ui.css")
+        style
+            include md.css
+    body
+        .markdown-body
+            h2="Api Success Response"
+            p {
+            p "isError": false,
+            p "data": "Data",
+            p "message": "Message"
+            p }
+            table
+                thead
+                    tr
+                        td="HTTP Status"
+                        td="Data"
+                        td="Message"
+                tbody
+                    each val,index in success
+                        tr
+                            td=200
+                            td={}
+                            td=val
