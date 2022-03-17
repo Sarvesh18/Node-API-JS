@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "nodejs-api",
+  "version": "0.0.1",
+  "description": "Node Starter for REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarvesh18/NodeJS-API.git"
+  },
+  "author": "Sarvesh Singh <sarvesh.singh18@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sarvesh18/NodeJS-API/issues"
+  },
+  "homepage": "https://github.com/Sarvesh18/NodeJS-API#readme",
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "busboy": "0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "ioredis": "4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "0.21.2",
+    "libapi": "file:local_modules/libapi",
+    "lodash": "^4.17.15",
+    "moment": "2.27.0",
+    "morgan": "^1.10.0",
+    "mysql2": "2.1.0",
+    "pg": "8.3.0",
+    "pug": "3.0.0",
+    "soap": "^0.31.0",
+    "twilio": "3.48.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "npm": "6.x",
+    "node": "10.3.x"
+  }
+}

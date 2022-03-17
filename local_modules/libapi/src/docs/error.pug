@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        title="Api Error"
+        link( rel="stylesheet", href="./swagger-ui.css")
+        style
+            include md.css
+    body
+        .markdown-body
+            h2="Api Error Response"
+            p {
+            p "isError": true,
+            p "code": "Error Code",
+            p "detail": "Error Detail'"
+            p }
+            table
+                thead
+                    tr
+                        td="HTTP Status"
+                        td="Error Code"
+                        td="Error Detail"
+                        td="Error Desc"
+                tbody
+                    each val,index in error
+                        tr
+                            td=val.status
+                            td=val.code
+                            td=val.detail
+                            td=val.desc

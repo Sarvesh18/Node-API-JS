@@ -1,0 +1,27 @@
+# Env 
+.env
+
+# Locals
+.idea
+.vscode
+
+# Dependency
+node_modules
+
+#
+package-lock.json
+
+# Temp
+tmp
+
+#
+pm2.json
+
+#
+data
+API
+src/v1
+src/common
+CHANGELOG.md
+local_modules/libpay
+local_modules/libsock
